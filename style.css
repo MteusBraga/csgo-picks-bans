@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+    color: white;
+}
+
+header{
+    margin: 60px 0px;
+}
+
+body{
+    font-family: 'Open Sans';
+    text-align: center;
+    background-color: black;
+    /*
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    */
+}
+
+.card{
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid white;
+    height: 300px;
+    width: 175px;
+    display: inline-block;
+    max-width: 175px;
+    transition: transform 0.2s ease;
+}
+
+.card p{
+    text-shadow: 1px 3px 3px black;
+    margin-top: 250px;
+    text-align: center;
+    background: none;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    border: 3px solid rgb(224, 71, 71);
+}
+
+.inferno{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/inferno.jpg');
+}
+.dust2{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/dust2.jpg');
+}
+.mirage{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/mirage.jpg');
+}
+.ancient{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/ancient.jpg');
+}
+.nuke{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/nuke.jpg');
+}
+.overpass{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/overpass.jpg');
+}
+.train{
+    background-position: center;
+    background-size: cover;
+    background-image: url('./img/train.jpg');
+}
+
+
